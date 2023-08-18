@@ -48,7 +48,7 @@ function draw() {
       }
     }
 
-    unitSize = map(mouseX, 0, width, 100, width);
+    unitSize = map(mouseX, 0, width, 200, width);
     angle += 0.01;
   }
 }
